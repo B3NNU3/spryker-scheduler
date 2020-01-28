@@ -1,0 +1,1 @@
+* * * * * cd __PROJECT_DIR__ && vendor/bin/console cron:scheduler:execute -q

@@ -1,0 +1,15 @@
+{% extends '@Application/Layout/layout.twig' %}
+
+{% block content %}
+    <section>
+        <h4>LogFileOutput:</h4>
+        <pre>{{ output }}</pre>
+    </section>
+    <section>
+        <h4>Current Configuration</h4>
+        {% for item in config %}
+            <strong>{{ item.name }}</strong> ({% if item.enable %}active{% else %}disabled{% endif %})<br>
+            <pre>{{ item.schedule }} {{ item.command }}</pre>
+        {% endfor %}
+    </section>
+{% endblock %}

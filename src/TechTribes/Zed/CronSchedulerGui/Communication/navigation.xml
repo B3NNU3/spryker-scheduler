@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <cron-scheduler-gui>
+        <label>Cron Scheduler Gui</label>
+        <title>Cron Scheduler Gui</title>
+        <bundle>cron-scheduler-gui</bundle>
+        <controller>index</controller>
+        <action>index</action>
+        <order>0</order>
+        <icon>fa-stopwatch</icon>
+    </cron-scheduler-gui>
+</config>

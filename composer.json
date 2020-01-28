@@ -1,0 +1,15 @@
+{
+  "name": "B3NNU3/spryker-scheduler",
+  "description": "Scheduler module",
+  "require": {
+    "php": ">=7.1",
+    "spryker/kernel": "^3.0.0",
+    "peppeocchi/php-cron-scheduler": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "TechTribes\\": "src/TechTribes/"
+    }
+  },
+  "minimum-stability": "dev"
+}
