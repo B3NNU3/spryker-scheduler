@@ -1,5 +1,5 @@
 {
-  "name": "B3NNU3/spryker-scheduler",
+  "name": "b3nnu3/spryker-scheduler",
   "description": "Scheduler module",
   "require": {
     "php": ">=7.1",
